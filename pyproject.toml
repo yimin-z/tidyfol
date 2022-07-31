@@ -8,4 +8,4 @@ version = "0.0.1"
 dependencies = []
 
 [project.scripts]
-tidyfol = "tidyfol:main"
+tidyfol = "tidyfol.app:main"

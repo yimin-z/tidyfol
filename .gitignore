@@ -3,3 +3,5 @@
 dist
 src/tidyfol.egg-info
 src/tidyfol/__pycache__
+
+tidyfol.db
