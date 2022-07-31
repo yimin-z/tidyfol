@@ -1,0 +1,5 @@
+.DS_Store
+.venv
+dist
+src/tidyfol.egg-info
+src/tidyfol/__pycache__
