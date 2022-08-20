@@ -1,6 +1,6 @@
 # tidyfol
 
-tidyfol is a command-line tool that tides your folder with simple command.
+tidyfol is a command-line tool that tidies your folder with simple commands.
 
 ## Installation Guide
 
@@ -33,9 +33,15 @@ Now, you can run the app
 
     tidyfol --version
 
+## Development Tips
+
 You can uninstall the app with
 
     pip uninstall tidyfol
+
+To update dependencies of the application
+
+    python -m pip freeze > requirements.txt
 
 To deactivate the virtual environment
 
