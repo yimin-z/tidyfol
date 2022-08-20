@@ -1,5 +1,8 @@
-import os
-import shutil
+import json
+
+from tidyfol import config
+
 
 def tidy(args):
-    print("tidying...")
+    with open(config.RULES_PATH) as f:
+        rules = json.load(f)
